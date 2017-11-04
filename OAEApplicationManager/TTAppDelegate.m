@@ -1,19 +1,14 @@
 //
-//  AppDelegate.m
+//  TTAppDelegate.m
 //  OAEApplicationManager
 //
-//  Created by 陇阪 on 03/11/2017.
+//  Created by 陇阪 on 04/11/2017.
 //  Copyright © 2017 陇阪. All rights reserved.
 //
 
-#import "AppDelegate.h"
-#import "OAEApplicationManager.h"
+#import "TTAppDelegate.h"
 
-@interface AppDelegate ()
-
-@end
-
-@implementation AppDelegate
+@implementation TTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Override point for customization after application launch.

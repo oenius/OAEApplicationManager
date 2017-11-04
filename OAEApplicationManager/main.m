@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "TTAppDelegate.h"
+#import "OAEApplicationManager.h"
 
 int main(int argc, char * argv[]) {
+  
+  @portalable([AppDelegate class]);
+  @portalable([TTAppDelegate class]);
+  
+  [[OAEApplicationManager manager]setEnabled:YES];
   @autoreleasepool {
       return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
   }

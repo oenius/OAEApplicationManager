@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE37C8DF1FAE167300A8487E /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE37C8DE1FAE167300A8487E /* TTAppDelegate.m */; };
+		AE37C8E11FAE17E200A8487E /* OAEApplicationManager in Resources */ = {isa = PBXBuildFile; fileRef = AE37C8E01FAE17E200A8487E /* OAEApplicationManager */; };
 		AE97FA8C1FAC80EE0083EBB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE97FA8B1FAC80EE0083EBB0 /* AppDelegate.m */; };
 		AE97FA8F1FAC80EE0083EBB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE97FA8E1FAC80EE0083EBB0 /* ViewController.m */; };
 		AE97FA921FAC80EE0083EBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE97FA901FAC80EE0083EBB0 /* Main.storyboard */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE37C8DD1FAE167300A8487E /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		AE37C8DE1FAE167300A8487E /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
+		AE37C8E01FAE17E200A8487E /* OAEApplicationManager */ = {isa = PBXFileReference; lastKnownFileType = folder; path = OAEApplicationManager; sourceTree = "<group>"; };
 		AE97FA871FAC80EE0083EBB0 /* OAEApplicationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAEApplicationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE97FA8A1FAC80EE0083EBB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE97FA8B1FAC80EE0083EBB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +106,7 @@
 		AE97FA891FAC80EE0083EBB0 /* OAEApplicationManager */ = {
 			isa = PBXGroup;
 			children = (
+				AE37C8E01FAE17E200A8487E /* OAEApplicationManager */,
 				AE97FA8A1FAC80EE0083EBB0 /* AppDelegate.h */,
 				AE97FA8B1FAC80EE0083EBB0 /* AppDelegate.m */,
 				AE97FA8D1FAC80EE0083EBB0 /* ViewController.h */,
@@ -110,6 +116,8 @@
 				AE97FA951FAC80EE0083EBB0 /* LaunchScreen.storyboard */,
 				AE97FA981FAC80EE0083EBB0 /* Info.plist */,
 				AE97FA991FAC80EE0083EBB0 /* main.m */,
+				AE37C8DD1FAE167300A8487E /* TTAppDelegate.h */,
+				AE37C8DE1FAE167300A8487E /* TTAppDelegate.m */,
 			);
 			path = OAEApplicationManager;
 			sourceTree = "<group>";
@@ -239,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE97FA971FAC80EE0083EBB0 /* LaunchScreen.storyboard in Resources */,
+				AE37C8E11FAE17E200A8487E /* OAEApplicationManager in Resources */,
 				AE97FA941FAC80EE0083EBB0 /* Assets.xcassets in Resources */,
 				AE97FA921FAC80EE0083EBB0 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE37C8DF1FAE167300A8487E /* TTAppDelegate.m in Sources */,
 				AE97FA8F1FAC80EE0083EBB0 /* ViewController.m in Sources */,
 				AE97FA9A1FAC80EE0083EBB0 /* main.m in Sources */,
 				AE97FA8C1FAC80EE0083EBB0 /* AppDelegate.m in Sources */,
